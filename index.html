@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>EVOS CENTER</title>
+</head>
+<body class="bg-warning">
+    
+ <header class="bg-success">
+    <nav class="navbar container navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <img src="./images/[removal.ai]_tmp-6361ff5ce96be.png" style="width:120px ;" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Bosh saxifa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Biz bilan aloqa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Manzillarimiz</a>
+              </li>
+              <select class="bg-success border-0" aria-label="Default select example">
+                <option selected>UZ</option>
+                <option value="1"> RU</option>
+                <option value="2">USA</option>
+                <option value="3">GR</option>
+              </select>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+ </header>
+
+
+
+
+
+<section>
+    <div class="container mt-4">
+        <div class="container text-center">
+            <h2>LAVASH BUYURTMA QILISH</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h3>TANLANG</h3>
+                    <div class="container my-5">
+                        <h4>Xamir turini tanlang</h4>
+                        <select name="" id="xamir" class="bg-success w-50 p-2" >
+                            <option value="Qalin">Qalin</option>
+                            <option value="Yupqa">Yupqa</option>
+                            <option value="O'rtacha">O'rtacha </option>
+                        </select>
+                    </div>
+                        <hr>
+                        <h4>Kattaligi</h4>
+                        <div class="container mt-5">
+                            <button class="btn btn-success border-0 rounded-5 me-5" style="font-size:35px ;" id="sm-25" value="25 sm"> 25-sm</button>
+                            <button class="btn btn-success border-0 rounded-5 me-5" style="font-size:35px ;" value="30 sm" id="sm-30"> 30-sm</button>
+                            <button class="btn btn-success border-0 rounded-5" style="font-size:35px ;" value="35 sm" id="sm-35"> 35-sm</button>
+                        </div>
+                        <hr>
+                        <h4>Ichiga nima solaylik</h4>
+                        <div class="container my-5 row">
+                            <div class="form-check col-6">
+                                <input class="form-check-input" type="checkbox" value="Tovuq go'shti" id="tovuq">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Tovuq go'shti
+                                </label>
+                              </div>
+
+                              <div class="form-check col-6">
+                                <input class="form-check-input" type="checkbox" value="Mol go'shti" id="mol">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Mol go'shti
+                                </label>
+                              </div>
+                              <div class="form-check col-6">
+                                <input class="form-check-input" type="checkbox" value="Qo'y go'shti" id="qoy">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Qo'y go'shti
+                                </label>
+                              </div>
+
+                              <div class="form-check col-6">
+                                <input class="form-check-input" type="checkbox" value="Kurka go'shti" id="kurka">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Kurka go'shti
+                                </label>
+                              </div>
+                        </div>
+                        <hr>
+                        <h4>Qo'shimcha</h4>
+                        <div class="container my-5 row">
+                            <div class="form-check col-6">
+                                <input class="form-check-input" type="checkbox" value="Ketchup" id="ketchup">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Ketchup
+                                </label>
+                              </div>
+
+                              <div class="form-check col-6">
+                                <input class="form-check-input" type="checkbox" value="Mayanez" id="mayanez">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Mayanez
+                                </label>
+                              </div>
+                            
+
+                        </div>
+                    
+                </div>
+                <div class="col-4">
+                    <h3>BUYURTMANGIZ</h3>
+                    <div class="container">
+                        <h4>Xamir turi :</h4>
+                        <div class="container mb-5">
+                            <h3 class="message"></h3>
+                            
+                        </div>
+                        <h4>Kattaligi :</h4>
+                        <div class="container mb-5">
+                            <h3 class="messagb"></h3>
+                          
+                            
+                        </div>
+                        <h4>Ichida :</h4>
+                        <div class="container mb-5">
+                            <h3 class="messagbt d-n"></h3>
+                            <h3 class="messagbq d-n"></h3>
+                            <h3 class="messagbm d-n"></h3>
+                            <h3 class="messagbk d-n"></h3>
+                           
+                        </div>
+                        <h4>Qo'shimcha :</h4>
+                        <div class="container mt-5">
+                            <h3 class="messagbks d-n"></h3>
+                            <h3 class="messagbms d-n"></h3>
+
+                        </div>
+
+
+
+                       <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Buyurtma berish
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal d-non fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h4>Xamir turi :</h4>
+            <div class="container mb-5">
+                <h3 class="message1"></h3>
+                
+            </div>
+            <h4>Kattaligi :</h4>
+            <div class="container mb-5">
+                <h3 class="messagb1"></h3>
+              
+                
+            </div>
+            <h4>Ichida :</h4>
+            <div class="container mb-5">
+                <h3 class="messagbt1 "></h3>
+                <h3 class="messagbq1 "></h3>
+                <h3 class="messagbm1 "></h3>
+                <h3 class="messagbk1"></h3>
+               
+            </div>
+            <h4>Qo'shimcha :</h4>
+            <div class="container mt-5">
+                <h3 class="messagbks1"></h3>
+                <h3 class="messagbms1"></h3>
+
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bekor qilish</button>
+          <button type="button" class="btn btn-primary">Buyurtma berish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+                        
+
+                
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="./javascript/app.js"></script>
+</body>
+</html>
